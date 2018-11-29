@@ -12,6 +12,11 @@
 		4474EC4521AE90D300FDE45C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4474EC4321AE90D300FDE45C /* Main.storyboard */; };
 		4474EC4721AE90D500FDE45C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4474EC4621AE90D500FDE45C /* Assets.xcassets */; };
 		4474EC4A21AE90D500FDE45C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4474EC4821AE90D500FDE45C /* LaunchScreen.storyboard */; };
+		4474EC5321AF755A00FDE45C /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474EC5121AF755A00FDE45C /* CardCollectionViewCell.swift */; };
+		4474EC5421AF755A00FDE45C /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4474EC5221AF755A00FDE45C /* CardCollectionViewCell.xib */; };
+		4474EC5621AF78E500FDE45C /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474EC5521AF78E500FDE45C /* PopView.swift */; };
+		4474EC5821AF792200FDE45C /* PopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4474EC5721AF792200FDE45C /* PopView.xib */; };
+		4474EC5A21AF802200FDE45C /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474EC5921AF802200FDE45C /* Role.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		4474EC4621AE90D500FDE45C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4474EC4921AE90D500FDE45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4474EC4B21AE90D500FDE45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4474EC5121AF755A00FDE45C /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		4474EC5221AF755A00FDE45C /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
+		4474EC5521AF78E500FDE45C /* PopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
+		4474EC5721AF792200FDE45C /* PopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopView.xib; sourceTree = "<group>"; };
+		4474EC5921AF802200FDE45C /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				4474EC4621AE90D500FDE45C /* Assets.xcassets */,
 				4474EC4821AE90D500FDE45C /* LaunchScreen.storyboard */,
 				4474EC4B21AE90D500FDE45C /* Info.plist */,
+				4474EC5121AF755A00FDE45C /* CardCollectionViewCell.swift */,
+				4474EC5221AF755A00FDE45C /* CardCollectionViewCell.xib */,
+				4474EC5521AF78E500FDE45C /* PopView.swift */,
+				4474EC5721AF792200FDE45C /* PopView.xib */,
+				4474EC5921AF802200FDE45C /* Role.swift */,
 			);
 			path = EasyHongHeiYe;
 			sourceTree = "<group>";
@@ -122,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4474EC5421AF755A00FDE45C /* CardCollectionViewCell.xib in Resources */,
+				4474EC5821AF792200FDE45C /* PopView.xib in Resources */,
 				4474EC4A21AE90D500FDE45C /* LaunchScreen.storyboard in Resources */,
 				4474EC4721AE90D500FDE45C /* Assets.xcassets in Resources */,
 				4474EC4521AE90D300FDE45C /* Main.storyboard in Resources */,
@@ -136,7 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4474EC4221AE90D300FDE45C /* ViewController.swift in Sources */,
+				4474EC5321AF755A00FDE45C /* CardCollectionViewCell.swift in Sources */,
+				4474EC5621AF78E500FDE45C /* PopView.swift in Sources */,
 				4474EC4021AE90D300FDE45C /* AppDelegate.swift in Sources */,
+				4474EC5A21AF802200FDE45C /* Role.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +304,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EasyHongHeiYe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zhy.-EasyHongHeiYe.EasyHongHeiYe";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhy.EasyHongHeiYe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,11 +322,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EasyHongHeiYe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zhy.-EasyHongHeiYe.EasyHongHeiYe";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhy.EasyHongHeiYe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
